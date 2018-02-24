@@ -1,5 +1,0 @@
-os: osx
-
-script:
-  - brew install lua
-  - lua example.lua
