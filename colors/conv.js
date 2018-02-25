@@ -316,7 +316,6 @@ convert.hsv.rgb = function (hsv) {
 	var s = hsv[1] / 100;
 	var v = hsv[2] / 100;
 	var hi = Math.floor(h) % 6;
-	console.log(hi)
 
 	var f = h - Math.floor(h);
 	var p = 255 * v * (1 - s);

@@ -106,7 +106,7 @@ windows = ->
 			res1 = exec getPath! .. '/term-size.exe'
 			res2 = res1\gmatch '%d+'
 			w, h = res2!, res2!
-			return {w, h}
+			return {w - 1, h - 1}
 	)
 
 ----------

@@ -115,8 +115,8 @@ windows = function()
     local res2 = res1:gmatch('%d+')
     local w, h = res2(), res2()
     return {
-      w,
-      h
+      w - 1,
+      h - 1
     }
   end)
 end

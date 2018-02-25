@@ -383,6 +383,7 @@ tbl.reverse   = utf8reverse
 tbl.char      = utf8char
 tbl.unicode   = utf8unicode
 tbl.gchar     = utf8gchar
+tbl.replace   = utf8replace
 
 return tbl
 
